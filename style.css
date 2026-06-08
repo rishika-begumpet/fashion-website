@@ -124,7 +124,7 @@ button.normal:hover{
 }  
 /*Hero Unit Section*/  
 #hero {
-      background-image:url("../images/hero7.png");
+      background-image:url("images/hero7.png");
       width: 100% ;
       height:100vh;
       background-size:cover;
