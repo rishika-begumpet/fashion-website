@@ -451,7 +451,7 @@ p{
 .banner {    
 width:100vw;
 height:400px;
-background-image: url("../images/baner.jpeg");
+background-image: url("images/baner.jpeg");
 display:flex;
 flex-direction:column;
 background-size:cover;
@@ -537,21 +537,21 @@ background-position:center;
     background-repeat:no-repeat;
 }
 .high{
-    background-image:url("../images/high4.jpeg");
+    background-image:url("images/high4.jpeg");
 }
 
 .high1{
-    background-image:url("../images/high5.jpeg");
+    background-image:url("images/high5.jpeg");
 }
 
 .high2{
-    background-image:url("../images/highlight3.jpg");
+    background-image:url("images/highlight3.jpg");
 }
 .high3{
-background-image:url("../images/highlight.jpg");
+background-image:url("images/highlight.jpg");
 }
 .high4{
-background-image:url("../images/highlight2.jpg");
+background-image:url("images/highlight2.jpg");
 }
 #highlights h1{
       color:#222222;
