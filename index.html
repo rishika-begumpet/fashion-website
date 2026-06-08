@@ -5,32 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cara</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel = "icon" href="images/shopping-bag.png">
     <a href="https://www.flaticon.com/free-icons/free-shipping"</a>
 </head>
 <body>
 <header>
-  <div id = "header">
-  <div class = "header-logo">
-  <a href = "index.html">Cara</a>
-  </div>
-  <div class = "header-list">
-<div class = "header-list-nav">
-<ul>
-<li><a class =  "active" href = index.html>Home</a></li>
-<li><a href = shop.html>Shop</a></li>
-<li><a href = about.html>About</a></li>
-<li><a href = contact.html>Contact Us</a></li>
-</ul>
+<div id="header">
+
+    <div class="header-logo">
+        <a href="index.html">Cara</a>
     </div>
-<div class = "header-list-icon">
-<a href = "index.html">
-      <i class="fa-solid fa-bag-shopping" size="lg"></i>
-      </a>
-</div>
-</div>
-</div>
+
+    <div class="header-right">
+
+        <div class="header-list-nav" id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu">
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </div>
+
+        <div class="header-list-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+ </div>
+<script>
+const menuBtn = document.getElementById("menu-btn");
+const navMenu = document.getElementById("nav-menu");
+
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+</script>
 </header>
     <main>
     <section id= "hero">
@@ -215,7 +228,7 @@
 </div>
 <div class = "high2">
 <h3>Seasonal Sale</h3>
-<span>the best classic dress is on sale at cara </span>
+<h6>Best classic dress is on sale at cara </h6>
 </div>
 <div class = "high3">
 <h3>Premium Collection</h3>
@@ -290,4 +303,3 @@
  </section>
 </body>
 </html>
-
